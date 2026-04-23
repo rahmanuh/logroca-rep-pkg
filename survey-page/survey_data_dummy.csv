@@ -1,0 +1,2 @@
+experiment_id,log_file_name,root_cause_output,root_cause_origin_output,action_suggestions_output,rationale_output,truncated_log_content,truncated_kb_context,comments
+EXP1,log_0000.json,test_aborted,at_test_case,['examine failed test execution logs'],The test failed due to an unhandled exception during execution., "{""error": "NullPointerException at line 42 of MyClass.java"}", "N/A", "This is a dummy log entry for testing purposes."
