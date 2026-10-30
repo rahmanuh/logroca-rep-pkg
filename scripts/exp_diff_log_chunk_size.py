@@ -33,7 +33,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuration
-log_base_path = Path(os.getenv("LOGROCA_ALSTOM_DATASET_PATH", "."))
+log_base_path = Path(os.getenv("LOGROCA_COMPANY_DATASET_PATH", "."))
 log_exp_path = log_base_path / "logs" / "exp"
 
 EXP_NUM = 7 # Will be increased when the experiement is repeated

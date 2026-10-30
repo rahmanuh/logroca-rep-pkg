@@ -13,16 +13,16 @@ This directory contains scripts for running the LogRoca experiments and preparin
 
 ## Requirements
 
-- LogRoca v0.5.0. See the [v0.5.0 release](https://codeberg.org/rahmanuh/LogRoca/src/tag/v0.5.0) for the source and installation instructions.
+- LogRoca v0.5.0. See the [v0.5.0 release](https://anonymous.4open.science/r/logroca-7D95/README.md) for the source and installation instructions.
 - Python dependencies: install the packages listed in `requirements.txt` (`pandas`, `openpyxl`, `python-dotenv`, and `xmltodict`).
 - Access to the experiment dataset used by the experiment scripts. Dataset access may be restricted; contact the authors if you require it.
 
 ## Configure the experiment dataset
 
-The two experiment scripts read `LOGROCA_ALSTOM_DATASET_PATH` from a `.env` file. Create a `.env` file in this directory with the dataset path, for example:
+The two experiment scripts read `LOGROCA_COMPANY_DATASET_PATH` from a `.env` file. Create a `.env` file in this directory with the dataset path, for example:
 
 ```dotenv
-LOGROCA_ALSTOM_DATASET_PATH=/path/to/authorised/dataset
+LOGROCA_COMPANY_DATASET_PATH=/path/to/authorised/dataset
 ```
 
 Alternatively, set the variable in your shell environment. Do not commit private dataset paths or credentials to version control.
